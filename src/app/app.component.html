@@ -1,0 +1,10 @@
+<app-exmaple color="#095385"></app-exmaple>
+
+<hr>
+
+<button *ngFor="let item of items; index as index"
+  bindCssVariable="animation-delay"
+  [bindCssVariableValue]="index * 0.2 + 's'"
+>
+  {{ item }}
+  </button>

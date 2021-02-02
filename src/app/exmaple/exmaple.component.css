@@ -1,0 +1,7 @@
+:host {
+  color: var(--color);
+}
+
+h1 {
+  color: var(--color);
+}
